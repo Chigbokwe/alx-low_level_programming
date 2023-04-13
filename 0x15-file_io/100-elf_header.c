@@ -112,9 +112,9 @@ void print_data(unsigned char *e_ident)
 }
 
 /**
- *  * print_version - Prints the version of an ELF header.
- *   * @e_ident: A pointer to an array containing the ELF version.
- *    */
+ * * print_version - Prints the version of an ELF header.
+ * @e_ident: A pointer to an array containing the ELF version.
+ */
 void print_version(unsigned char *e_ident)
 {
 	 printf(" Version: %d",
@@ -246,7 +246,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 /**
  * close_elf - It closes an ELF file.
  * @elf: file descriptor of the ELF file.
- * 
+ *
  * Description: If this file cannot be closed - exit code 98.
  */
 void close_elf(int elf)
